@@ -7,9 +7,9 @@
         <status>false</status>
     </stream>
     <stream id="1">
-        <input>http://35.201.84.52/live/nbcsn/chunks.m3u8</input>
+        <input>http://x.x.x.x/live/playist.m3u8</input>
         <logData></logData>
-        <output>rtmp://3.18.214.150/live/ppv</output>
+        <output>rtmp://x.x.x.x/live/ppv</output>
         <status>false</status>
     </stream>
 </streams>
