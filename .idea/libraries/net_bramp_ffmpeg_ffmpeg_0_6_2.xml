@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="net.bramp.ffmpeg:ffmpeg:0.6.2" type="repository">
+    <properties maven-id="net.bramp.ffmpeg:ffmpeg:0.6.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ffmpeg-0.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-20.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/modelmapper-0.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

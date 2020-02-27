@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<streams>
+    <stream id="0">
+        <input>http</input>
+        <logData>log...log</logData>
+        <output>rtmp</output>
+        <status>false</status>
+    </stream>
+    <stream id="1">
+        <input>http://35.201.84.52/live/nbcsn/chunks.m3u8</input>
+        <logData></logData>
+        <output>rtmp://3.18.214.150/live/ppv</output>
+        <status>false</status>
+    </stream>
+</streams>

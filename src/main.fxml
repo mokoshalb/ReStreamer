@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1100.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller">
+   <tabs>
+       <Tab text="STREAMS">
+          <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                 <children>
+                     <Button layoutX="976.0" layoutY="332.0" mnemonicParsing="false" onAction="#startStream" prefHeight="25.0" prefWidth="109.0" text="Start">
+                         <font>
+                             <Font size="14.0" />
+                         </font>
+                     </Button>
+                     <Button fx:id="addBtn" layoutX="14.0" layoutY="332.0" mnemonicParsing="false" onAction="#addStream" text="Add">
+                         <font>
+                             <Font size="14.0" />
+                         </font>
+                     </Button>
+                     <Button layoutX="69.0" layoutY="332.0" mnemonicParsing="false" onAction="#deleteStream" text="Remove">
+                         <font>
+                             <Font size="14.0" />
+                         </font>
+                     </Button>
+                     <Button layoutX="149.0" layoutY="332.0" mnemonicParsing="false" onAction="#deleteAllStream" text="Remove ALL">
+                         <font>
+                             <Font size="14.0" />
+                         </font>
+                     </Button>
+                     <TableView fx:id="streamsTable" layoutX="14.0" layoutY="14.0" maxWidth="-Infinity" prefHeight="300.0" prefWidth="1070.0">
+                         <columns>
+                             <TableColumn fx:id="id" prefWidth="34.0" text="S/N" />
+                             <TableColumn fx:id="input" prefWidth="273.0" text="INPUT" />
+                             <TableColumn fx:id="output" minWidth="0.0" prefWidth="309.0" text="OUTPUT" />
+                             <TableColumn fx:id="status" minWidth="0.0" prefWidth="63.0" text="STATUS" />
+                             <TableColumn fx:id="logData" minWidth="0.0" prefWidth="391.0" text="LOG DATA" />
+                         </columns>
+                     </TableView>
+                  <Button layoutX="854.0" layoutY="332.0" mnemonicParsing="false" onAction="#stopStream" prefHeight="25.0" prefWidth="109.0" text="Stop">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                 </children>
+              </AnchorPane>
+          </content>
+       </Tab>
+       <Tab text="SETTINGS">
+           <content>
+               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               </AnchorPane>
+           </content>
+       </Tab>
+   </tabs>
+</TabPane>
